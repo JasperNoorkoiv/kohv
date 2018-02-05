@@ -42,10 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apple.cs" />
     <Compile Include="Cappuccino.cs" />
     <Compile Include="Ekspresso.cs" />
+    <Compile Include="Food.cs" />
     <Compile Include="Kohvid.cs" />
     <Compile Include="Latte.cs" />
+    <Compile Include="Pie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

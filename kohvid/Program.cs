@@ -13,7 +13,7 @@ namespace kohvid
             //Klient
             int TotalCoffeCost = 0;
 
-            Console.WriteLine(" what kind of coffee do you want to buy ?\n1 - Ekspresso \n2 - Latte \n3 - Cappuccino");
+            Console.WriteLine(" Hello! what kind of coffee do you want to buy? \n1 - Ekspresso \n2 - Latte \n3 - Cappuccino");
             int UserChoise = Int32.Parse(Console.ReadLine());
             switch (UserChoise)
             {
@@ -34,10 +34,30 @@ namespace kohvid
                     Cappuccino.DrinkCoffe();
                     break;
             }
+            Console.WriteLine("do you want to buy food? \n1 - Pie \n2 - No ");
+            int UserChoise2 = Int32.Parse(Console.ReadLine());
+            switch (UserChoise)
             {
+                case 1:
+                    var pie = new Pie();
+                    pie.EatFood();
+                    pie.FoodSize();
+                    break;
+                case 2:
+                    var apple = new Apple();
+                    apple.EatFood();
+                    apple.FoodSize();
+                    break;
+            }
+            {
+
+
                 Console.WriteLine("Thanks you for shopping us.");
                 Console.ReadLine();
             }
         }
     }
 }
+            
+        
+    
