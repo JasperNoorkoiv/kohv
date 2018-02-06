@@ -13,7 +13,6 @@ namespace kohvid
             name = "ekspresso";
             size = "\n1 - Small \n2 - Meduim \n3 - Large";
             price = 10;
-            drinking = +10;
         }
     }
 }

@@ -11,7 +11,6 @@ namespace kohvid
         public int price;
         public string name;
         public string size;
-        public int drinking;
 
 
         public void DrinkCoffe()

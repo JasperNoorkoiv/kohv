@@ -13,7 +13,6 @@ namespace kohvid
             name = "pie";
             size = "\n1 - Small \n2 - Meduim \n3 - Large";
             price = 20;
-            eating = +10;
         }
     }
 }

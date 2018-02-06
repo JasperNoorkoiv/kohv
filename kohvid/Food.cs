@@ -11,13 +11,12 @@ namespace kohvid
         public int price;
         public string name;
         public string size;
-        public int eating;
 
 
         public void EatFood()
         {
             string str = Console.ReadLine();
-            Console.WriteLine(" You ´ate " + name);
+            Console.WriteLine(" You ate " + name);
         }
         public void FoodSize()
         {
