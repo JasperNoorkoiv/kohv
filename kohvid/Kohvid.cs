@@ -16,6 +16,7 @@ namespace kohvid
 
         public void DrinkCoffe()
         {
+            string str = Console.ReadLine();
             Console.WriteLine(" You drank coffe " + name);
         }
         public void CoffeSize()

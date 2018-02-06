@@ -16,6 +16,7 @@ namespace kohvid
 
         public void EatFood()
         {
+            string str = Console.ReadLine();
             Console.WriteLine(" You ´ate " + name);
         }
         public void FoodSize()
