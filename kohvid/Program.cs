@@ -34,9 +34,9 @@ namespace kohvid
                     Cappuccino.DrinkCoffe();
                     break;
             }
-            Console.WriteLine("do you want to buy food? \n1 - Pie \n2 - No ");
+            Console.WriteLine("do you want to buy food? \n1 - Pie \n2 - Apple \n3 - I do not want to buy food ");
             int UserChoise2 = Int32.Parse(Console.ReadLine());
-            switch (UserChoise)
+            switch (UserChoise2)
             {
                 case 1:
                     var pie = new Pie();
@@ -47,6 +47,8 @@ namespace kohvid
                     var apple = new Apple();
                     apple.EatFood();
                     apple.FoodSize();
+                    break;
+                case 3:
                     break;
             }
             {
