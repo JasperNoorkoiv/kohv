@@ -11,7 +11,6 @@ namespace kohvid
         public Apple()
         {
             name = "apple";
-            size = "\n1 - Small \n2 - Meduim \n3 - Large";
             price = 20;
         }
     }
